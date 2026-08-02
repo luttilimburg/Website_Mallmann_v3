@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/lib/i18n";
+import { CUSTOMER_CONTACT_EMAIL } from "@/lib/contact";
 
 export const Route = createFileRoute("/privacy")({
   head: () => ({
@@ -42,7 +43,7 @@ function Privacy() {
           <h2>Ihre Rechte</h2>
           <p>
             Sie können jederzeit Auskunft, Löschung oder Berichtigung Ihrer Daten verlangen.
-            Kontaktieren Sie hello@luitwin-mallmann.de.
+            Kontaktieren Sie {CUSTOMER_CONTACT_EMAIL}.
           </p>
         </>
       ) : (
@@ -62,7 +63,7 @@ function Privacy() {
           <h2>Your rights</h2>
           <p>
             You can request access, deletion or correction of your data at any time. Email
-            hello@luitwin-mallmann.de.
+            {CUSTOMER_CONTACT_EMAIL}.
           </p>
         </>
       )}

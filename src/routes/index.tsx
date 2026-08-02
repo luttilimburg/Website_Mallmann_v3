@@ -8,7 +8,7 @@ import { StatsGrid, type Stat } from "@/components/site/AnimatedCounter";
 import { ScrambleText } from "@/components/site/ScrambleText";
 import { TiltCard } from "@/components/site/TiltCard";
 import { TestimonialMarquee } from "@/components/site/TestimonialMarquee";
-import portrait from "@/assets/Bild_Luitwin_Mallmann.jpg";
+import portrait from "@/assets/WhatsApp Image 2026-08-02 at 15.04.08.jpeg";
 
 export const Route = createFileRoute("/")({
   component: Home,

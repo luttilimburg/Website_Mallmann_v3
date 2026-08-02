@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import { CUSTOMER_CONTACT_EMAIL } from "@/lib/contact";
 
 export type Lang = "en" | "de";
 
@@ -82,7 +83,7 @@ const en = {
     company: "Company",
     message: "How can I help?",
     success: "Thanks — your message is on its way. I'll be in touch shortly.",
-    error: "Something went wrong. Please email luitwin.mallmann@outlook.com directly.",
+    error: `Something went wrong. Please email ${CUSTOMER_CONTACT_EMAIL} directly.`,
   },
   privacy: {
     title: "Privacy",
@@ -174,7 +175,7 @@ const de: Dict = {
     company: "Unternehmen",
     message: "Wie kann ich helfen?",
     success: "Danke — Ihre Nachricht ist unterwegs. Ich melde mich in Kürze.",
-    error: "Etwas ist schiefgelaufen. Bitte schreiben Sie mir direkt an luitwin.mallmann@outlook.com",
+    error: `Etwas ist schiefgelaufen. Bitte schreiben Sie mir direkt an ${CUSTOMER_CONTACT_EMAIL}`,
   },
   privacy: {
     title: "Datenschutz",

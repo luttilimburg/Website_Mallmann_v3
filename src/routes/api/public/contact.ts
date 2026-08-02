@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
+import { CUSTOMER_CONTACT_EMAIL } from "@/lib/contact";
 
 const ContactMessageSchema = z.object({
   name: z.string().trim().min(2).max(100),
@@ -45,7 +46,7 @@ export const Route = createFileRoute("/api/public/contact")({
 
         const apiKey = process.env.RESEND_API_KEY;
         const from = process.env.CONTACT_FROM_EMAIL;
-        const to = process.env.CONTACT_TO_EMAIL ?? "luitwin.mallmann@outlook.com";
+        const to = process.env.CONTACT_TO_EMAIL ?? CUSTOMER_CONTACT_EMAIL;
 
         if (!apiKey || !from) {
           console.error("Missing RESEND_API_KEY or CONTACT_FROM_EMAIL");

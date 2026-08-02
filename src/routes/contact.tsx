@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useI18n } from "@/lib/i18n";
+import { CUSTOMER_CONTACT_EMAIL } from "@/lib/contact";
 import { CalendlyEmbed, CALENDLY_URL } from "@/components/site/CalendlyEmbed";
 
 export const Route = createFileRoute("/contact")({
@@ -67,7 +68,7 @@ function Contact() {
               <MapPin className="h-4 w-4 text-brand" /> Frankfurt am Main, Germany
             </div>
             <div className="flex items-center gap-3 text-muted-foreground">
-              <Mail className="h-4 w-4 text-brand" /> hello@luitwin-mallmann.de
+              <Mail className="h-4 w-4 text-brand" /> {CUSTOMER_CONTACT_EMAIL}
             </div>
           </div>
         </div>
