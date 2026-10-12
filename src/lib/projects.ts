@@ -2,7 +2,7 @@ import projectAiGov from "@/assets/project-ai-governance.jpg";
 import lufthansa from "@/assets/LufthansaCargo.png";
 import yankrukov from "@/assets/pexels-yankrukov-8867434.jpg";
 import rdne from "@/assets/pexels-rdne-7947752.jpg";
-import zki from "@/assets/zukunftszentrum-ki-nrw.svg";
+import zki from "@/assets/zzki_logo.svg";
 import utrecht from "@/assets/utrecht_university_logo.png";
 import bwnrw from "@/assets/Bildungswerk-der-Nordrhein-Westfaelischen-Wirtschaft-bwnrw.png";
 import geogap from "@/assets/GeoGapLogo.jpg";

@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const stack = ["Python", "Machine Learning", "Power BI", "R", "SQL", "Forecasting", "Azure", "Databricks", "MicroStrategy"];
+const stack = ["Python", "Machine Learning", "Power BI", "Qlik", "Tableau", "R", "SQL", "Forecasting", "Azure", "Databricks", "MicroStrategy"];
 const serviceIcons = [Brain, LineChart, ShieldCheck];
 const stats: Stat[] = [
   { end: 40, suffix: "+", label: "dashboards delivered" },

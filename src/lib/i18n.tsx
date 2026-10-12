@@ -12,7 +12,7 @@ const en = {
   home: {
     kicker: "Data Science · AI · Business Intelligence",
     title: "Turning data into decisions your business can bet on.",
-    subtitle: "I'm Luitwin Mallmann — an independent Data Science, AI and BI consultant helping teams move from dashboards to production-grade AI and forecasting.",
+    subtitle: "I'm Luitwin Mallmann, an independent Data Science, AI and BI consultant. I help small and medium-sized businesses navigate the AI landscape and build the right foundations to put AI to meaningful use.",
     stack: "Working stack",
     projectsTitle: "Selected projects",
     projectsSub: "Real engagements. Real outcomes. Click any card to open the case study.",
@@ -44,7 +44,7 @@ const en = {
     skillsTitle: "Skills",
     skills: [
       { t: "Data Science", items: ["Python, R, SQL", "Machine Learning & Forecasting", "Transformer time-series models", "Statistics & experimentation"] },
-      { t: "Business Intelligence", items: ["Power BI, MicroStrategy, Tableau", "Data modeling & DAX", "Executive dashboarding", "Forecast monitoring"] },
+      { t: "Business Intelligence", items: ["Power BI, MicroStrategy, Qlik, Tableau", "Data modeling & DAX", "Executive dashboarding", "Forecast monitoring"] },
       { t: "Cloud & Data Platform", items: ["Azure, Databricks", "Data governance & lineage", "MLOps foundations", "Cost-aware architecture"] },
       { t: "Product Ownership", items: ["SAFe / Scrum", "Stakeholder management", "Roadmapping & prioritisation", "Workshop facilitation"] },
     ],
@@ -104,7 +104,7 @@ const de: Dict = {
   home: {
     kicker: "Data Science · KI · Business Intelligence",
     title: "Aus Daten werden Entscheidungen, auf die man bauen kann.",
-    subtitle: "Ich bin Luitwin Mallmann — unabhängiger Berater für Data Science, KI und BI. Ich helfe Teams, von Dashboards zu produktionsreifer KI und Forecasting zu kommen.",
+    subtitle: "Ich bin Luitwin Mallmann, unabhängiger Berater für Data Science, KI und BI. Ich helfe kleinen und mittelständischen Unternehmen, sich im KI-Dschungel zurechtzufinden und die richtigen Grundlagen zu schaffen, um KI sinnvoll im Unternehmen zu verankern.",
     stack: "Tech-Stack",
     projectsTitle: "Ausgewählte Projekte",
     projectsSub: "Reale Projekte. Reale Ergebnisse. Klicken Sie eine Karte für die Case Study.",
@@ -136,7 +136,7 @@ const de: Dict = {
     skillsTitle: "Kompetenzen",
     skills: [
       { t: "Data Science", items: ["Python, R, SQL", "Machine Learning & Forecasting", "Transformer-Zeitreihenmodelle", "Statistik & Experimentation"] },
-      { t: "Business Intelligence", items: ["Power BI, MicroStrategy, Tableau", "Datenmodellierung & DAX", "Executive Dashboarding", "Forecast-Monitoring"] },
+      { t: "Business Intelligence", items: ["Power BI, MicroStrategy, Qlik, Tableau", "Datenmodellierung & DAX", "Executive Dashboarding", "Forecast-Monitoring"] },
       { t: "Cloud & Datenplattform", items: ["Azure, Databricks", "Data Governance & Lineage", "MLOps-Grundlagen", "Kosteneffiziente Architektur"] },
       { t: "Product Ownership", items: ["SAFe / Scrum", "Stakeholder-Management", "Roadmapping & Priorisierung", "Workshop-Moderation"] },
     ],

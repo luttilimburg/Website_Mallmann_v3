@@ -7,7 +7,11 @@ type Testimonial = {
 const defaults: Testimonial[] = [
   { quote: "Luitwin is an excellent instructor. I highly recommend him", author: "Omar", role: "Student Superprof" },
   { quote: "sehr gutes tool, bitte weiter entwickeln", author: "Markus", role: "Sales Agent - User of a PowerBI Dashboard created by me" },
-
+  { quote: "Interaktiver Workshop, sehr gute Referenten", author: "Workshop-Teilnehmende", role: "KI-Workshop" },
+  { quote: "Sehr guter und kompetenter Referent, kurzweilig", author: "Workshop-Teilnehmende", role: "KI-Workshop" },
+  { quote: "Neue Impressionen und Praxisbeispiele", author: "Workshop-Teilnehmende", role: "KI-Workshop" },
+  { quote: "Praktische Übung", author: "Workshop-Teilnehmende", role: "KI-Workshop" },
+  { quote: "Praktische Beispiele", author: "Workshop-Teilnehmende", role: "KI-Workshop" },
 ];
 
 export function TestimonialMarquee({ items = defaults }: { items?: Testimonial[] }) {
