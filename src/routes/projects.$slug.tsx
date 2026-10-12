@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 import { projects } from "@/lib/projects";
 import { Button } from "@/components/ui/button";
+import { ProjectArtwork } from "@/components/site/ProjectArtwork";
 
 export const Route = createFileRoute("/projects/$slug")({
   loader: ({ params }) => {
@@ -51,7 +52,7 @@ function ProjectDetail() {
       <h1 className="mt-3 font-display text-4xl sm:text-5xl font-semibold text-balance">{project.title[lang]}</h1>
       <p className="mt-2 text-muted-foreground">{project.client[lang]}</p>
       <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-card">
-        <img src={project.image} alt={project.title[lang]} className="aspect-[16/9] w-full object-cover" />
+        <ProjectArtwork project={project} />
       </div>
       <div className="mt-8 grid gap-4 sm:grid-cols-3">
         {project.metrics.map((m: { k: string; v: { en: string; de: string } }) => (

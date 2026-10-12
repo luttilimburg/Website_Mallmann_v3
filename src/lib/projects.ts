@@ -27,31 +27,31 @@ export const projects: Project[] = [
     chip: { en: "AI Strategy & Governance", de: "KI-Strategie & Governance" },
     title: {
       en: "AI Infrastructure & Data Governance Workshop",
-      de: "AI Infrastructure & Data Governance Workshop",
+      de: "KI-Infrastruktur & Data Governance",
     },
     client: { en: "Zukunftszentrum KI NRW · Bildungswerk NRW", de: "Zukunftszentrum KI NRW · Bildungswerk NRW" },
     clientLogo: zki,
     image: projectAiGov,
     summary: {
-      en: "Hands-on workshop for SMEs on AI infrastructure, data governance and regulatory requirements.",
-      de: "Praxis-Workshop für KMU zu KI-Infrastruktur, Data Governance und regulatorischen Anforderungen.",
+      en: "From Excel to an AI-ready data foundation: SMEs prioritize a business use case, map its data flow and governance, then build a first predictive-maintenance model in a live Google Colab session.",
+      de: "Von Excel zur KI-reifen Datenbasis: KMU priorisieren einen Business-Use-Case, leiten Datenfluss und Governance ab und erstellen in einer Live-Coding-Session in Google Colab ein erstes Predictive-Maintenance-Modell.",
     },
     problem: {
-      en: "Small and medium-sized companies want to adopt AI, but lack a shared vocabulary for infrastructure choices, governance obligations and the practical steps from prototype to production.",
-      de: "Der Mittelstand will KI einführen — es fehlt aber die gemeinsame Sprache für Infrastruktur-Entscheidungen, Governance-Pflichten und den Weg vom Prototyp zur Produktion.",
+      en: "SMEs often have data spread across Excel files and business systems, while the first AI idea, minimum data requirements, infrastructure choice and governance responsibilities are still unclear.",
+      de: "In KMU liegen Daten oft verteilt in Excel-Dateien und Geschäftssystemen. Gleichzeitig sind der erste sinnvolle KI-Anwendungsfall, die nötige Mindestdatenbasis, die passende Infrastruktur und klare Governance-Verantwortlichkeiten noch offen.",
     },
     approach: {
-      en: "A one-day workshop combining a strategic framing, hands-on architecture patterns (data lakehouse, feature store, model serving) and a regulatory checklist aligned with EU AI Act obligations.",
-      de: "Ein eintägiger Workshop mit strategischem Framing, praktischen Architekturmustern (Data Lakehouse, Feature Store, Model Serving) und einer Checkliste zur EU-AI-Act-Konformität.",
+      en: "Participants compare predictive-maintenance and demand-forecasting cases, estimate business value, and map sources, shared data, quality checks and governance. Exercises compare open-source, Azure, Google Cloud and AWS options, and discuss cloud, on-premises and hybrid architectures alongside the EU AI Act, NIS2, GDPR and EU Data Act. In a live-coding session, they use Google Colab and an AI coding assistant to explore a machine dataset and train and assess a first supervised prediction model.",
+      de: "Anhand der Fallbeispiele Predictive Maintenance und Absatzprognose bewerten die Teilnehmenden den Geschäftsnutzen und leiten Quellen, gemeinsamen Datenkern, Qualitätschecks und Governance ab. Übungen vergleichen Open-Source-, Azure-, Google-Cloud- und AWS-Optionen sowie Cloud-, On-Premises- und Hybrid-Architekturen. Außerdem ordnen sie Anforderungen aus EU AI Act, NIS2, DSGVO und EU Data Act ein. Im Live-Coding nutzen sie Google Colab und einen KI-Coding-Assistenten, um einen Maschinendatensatz zu untersuchen und ein erstes überwachtes Prognosemodell zu trainieren und zu bewerten.",
     },
     outcome: {
-      en: "Participating companies left with a personalised AI-readiness scorecard and a prioritised 90-day roadmap.",
-      de: "Jedes teilnehmende Unternehmen erhielt eine persönliche AI-Readiness-Scorecard und eine priorisierte 90-Tage-Roadmap.",
+      en: "The stated workshop goal is for participants to assess an initial AI use case economically, derive its minimum data flow, and make informed architecture and governance choices. They also get a practical first look at preparing data, training a model, and interpreting prediction quality and trade-offs.",
+      de: "Laut Workshopziel können die Teilnehmenden danach einen ersten KI-Anwendungsfall wirtschaftlich bewerten, den minimal nötigen Datenfluss ableiten und Architektur sowie Governance begründet auswählen. Im Praxisteil erleben sie außerdem, wie Daten vorbereitet, ein Modell trainiert und Modellgüte samt Zielkonflikten eingeordnet werden.",
     },
     metrics: [
-      { k: "12", v: { en: "SME leaders trained", de: "KMU-Führungskräfte trainiert" } },
-      { k: "90d", v: { en: "actionable roadmap", de: "umsetzbare Roadmap" } },
-      { k: "1:1", v: { en: "readiness scorecard", de: "Readiness-Scorecard" } },
+      { k: "1 Tag", v: { en: "workshop", de: "Workshop" } },
+      { k: "2", v: { en: "practical use cases", de: "Praxisfälle" } },
+      { k: "Live", v: { en: "Colab model session", de: "Colab-Modell-Session" } },
     ],
   },
   {

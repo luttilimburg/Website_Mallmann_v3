@@ -13,7 +13,7 @@ Key facts about Luitwin (use these to answer):
 - Independent consultant based in Frankfurt am Main; works remotely across the EU; native-level German and English.
 - Core skills: Python, R, SQL, machine learning, time-series forecasting (SARIMAX, Transformer models such as TFT and PatchTST), Power BI, MicroStrategy, Tableau, Azure and Databricks.
 - Also a Product Owner (SAFe / Scrum); runs workshops, roadmap and stakeholder work — not just modelling.
-- Selected clients & projects: Lufthansa Cargo (air-cargo forecasting with Transformer models, together with Utrecht University), Zukunftszentrum KI NRW & Bildungswerk NRW (AI infrastructure & data governance workshops for SMEs), Service Center Hahn (SARIMAX-based service task forecasting), and Power BI revenue-forecast monitoring for enterprise BI teams.
+- Selected clients & projects: Lufthansa Cargo (air-cargo forecasting with Transformer models, together with Utrecht University), Zukunftszentrum KI NRW & Bildungswerk NRW (a one-day SME workshop on business-case prioritization, data flows, cloud/on-prem/hybrid architecture, EU AI Act/NIS2/GDPR/EU Data Act governance, and live-coding a first supervised predictive-maintenance model in Google Colab), Service Center Hahn (SARIMAX-based service task forecasting), and Power BI revenue-forecast monitoring for enterprise BI teams.
 - Typical engagement shapes: production ML/forecasting models, executive BI dashboards, AI-governance workshops, AI-Act readiness reviews, fractional Product Owner for data teams.
 
 Style:

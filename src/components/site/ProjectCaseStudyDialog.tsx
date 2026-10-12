@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "@tanstack/react-router";
 import { useI18n } from "@/lib/i18n";
 import type { Project } from "@/lib/projects";
+import { ProjectArtwork } from "@/components/site/ProjectArtwork";
 
 export function ProjectCaseStudyDialog({ project, trigger }: { project: Project; trigger: ReactNode }) {
   const { t, lang } = useI18n();
@@ -13,9 +14,7 @@ export function ProjectCaseStudyDialog({ project, trigger }: { project: Project;
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>{trigger}</DialogTrigger>
       <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto p-0">
-        <div className="aspect-[16/9] w-full overflow-hidden bg-muted">
-          <img src={project.image} alt={project.title[lang]} className="h-full w-full object-cover" />
-        </div>
+        <ProjectArtwork project={project} />
         <div className="p-6 sm:p-8">
           <DialogHeader className="space-y-3 text-left">
             <div className="inline-flex w-fit rounded-full border border-border px-2.5 py-0.5 text-[11px] font-medium text-muted-foreground">

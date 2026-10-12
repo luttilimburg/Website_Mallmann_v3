@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n";
 import { clientLogos, projects } from "@/lib/projects";
 import { ProjectCaseStudyDialog } from "@/components/site/ProjectCaseStudyDialog";
+import { ProjectArtwork } from "@/components/site/ProjectArtwork";
 import { StatsGrid, type Stat } from "@/components/site/AnimatedCounter";
 import { ScrambleText } from "@/components/site/ScrambleText";
 import { TiltCard } from "@/components/site/TiltCard";
@@ -117,9 +118,7 @@ function Home() {
                     type="button"
                     className="group relative z-10 block w-full text-left overflow-hidden rounded-2xl border border-border bg-card transition-shadow hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
                   >
-                    <div className="aspect-[16/9] overflow-hidden bg-muted">
-                      <img src={p.image} alt={p.title[lang]} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
-                    </div>
+                    <ProjectArtwork project={p} />
                     <div className="p-6">
                       <div className="inline-flex rounded-full border border-border px-2.5 py-0.5 text-[11px] font-medium text-muted-foreground">{p.chip[lang]}</div>
                       <h3 className="mt-3 font-display text-xl font-semibold">{p.title[lang]}</h3>
